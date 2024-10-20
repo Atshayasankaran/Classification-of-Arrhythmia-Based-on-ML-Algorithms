@@ -14,6 +14,29 @@ The MIT-BIH Arrhythmia Dataset is used in this project. It containing both train
 <img src="https://github.com/Atshayasankaran/Classification-of-Arrhythmia-Based-on-ML-Algorithms/blob/main/Img/testing.JPG">
 
 <h5 align="center">ECG signal for different classes<h5>
-<img src="https://github.com/Atshayasankaran/Classification-of-Arrhythmia-Based-on-ML-Algorithms/blob/main/Img/Signal.png">
+<img src="https://github.com/Atshayasankaran/Classification-of-Arrhythmia-Based-on-ML-Algorithms/blob/main/Img/Signals.png">
+
+# Preprocessing 
+The samples are not equally distributed across the target labels. To make the dataset balanced two techniques were used, upsampling and downsampling. 
+
+Upsampling :
+•	Process of duplicating the randomly selected samples in each class which has the minimum instances.
+•	After upsampling there are 35000 instances in training dataset and 15000 instances testing dataset in each target classes.
+Downsampling :
+•	Process of reducing the samples in the classes which has the maximum number of samples. 
+•	After downsampling there are 370 instances in training dataset and 160 instances testing dataset in each target classes.
+
+# Machine Learning and Ensemble Models
+Both upsampled and downsampled data are used as input for various machine learning algorithms, including k-Nearest Neighbor, Naive Bayes, Decision Tree, and Support Vector Machine (SVM) with different kernels, such as Polynomial, Gaussian Radial Basis Function (RBF), and Sigmoid kernels. Since the upsampled data gives better accuracy, it is given as input for ensemble models like Adaptive Boosting, Gradient Boosting, XGBoost, Bagging Classifier, Random Forest, and ExtraTrees Classifier.
+
+# Results
+• Among all the machine learning and ensemble techniques applied, the Radial Basis Function (RBF) kernel in SVM achieves the highest accuracy of 91% on upsampled data.
+• For normal beats, Random Forest performs the best, with a sensitivity of 99%.
+• For supraventricular ectopic beats, the RBF kernel in SVM delivers the best result, with a sensitivity of 82%.
+•	For Ventricular ectopic beats, KNN algorithm works well with sensitivity of 94%. 
+• For fusion beats, the RBF kernel performs the best, with a sensitivity of 93%.
+•	For unknown beats, XGBoost gives best performance with the sensitivity of 97%. 
+
+
 
 
