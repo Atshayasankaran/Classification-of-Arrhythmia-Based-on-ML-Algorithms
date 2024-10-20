@@ -1,7 +1,7 @@
 # Classification-of-Arrhythmia-Based-on-ML-Algorithms
 An arrhythmia is a condition characterized by irregularities in the heart's rate or rhythm, where the heart may beat too quickly, too slowly, or with an abnormal pattern. To diagnose arrhythmias, the most commonly used test is the electrocardiogram (ECG). The ECG captures electrical activity of the heart and displays key points, known as fiducial points, labeled P, Q, R, S, T, and U, along with segments and intervals. Variations in these points, segments, and intervals can indicate the presence of arrhythmia. Various types of arrhythmias can be detected through ECG signals. Machine learning techniques are often employed to analyze these patterns, helping to identify the specific type of arrhythmia a patient may have.
 
-<img src="https://github.com/Atshayasankaran/Classification-of-Arrhythmia-Based-on-ML-Algorithms/blob/main/Img/ECG signal_1.JPG">
+<img src="https://github.com/Atshayasankaran/Classification-of-Arrhythmia-Based-on-ML-Algorithms/blob/main/Img/ECG signal_1.JPG" width="500" height="500">
 
 # Model Architecture
 <img src="https://github.com/Atshayasankaran/Classification-of-Arrhythmia-Based-on-ML-Algorithms/blob/main/Img/Model.png">
@@ -35,7 +35,7 @@ Both upsampled and downsampled data are used as input for various machine learni
 
 # Results
 <ul>
-<li></li>Among all the machine learning and ensemble techniques applied, the Radial Basis Function (RBF) kernel in SVM achieves the highest accuracy of 91% on upsampled data.</li>
+<li>Among all the machine learning and ensemble techniques applied, the Radial Basis Function (RBF) kernel in SVM achieves the highest accuracy of 91% on upsampled data.</li>
 <li>For normal beats, Random Forest performs the best, with a sensitivity of 99%.</li>
 <li>For supraventricular ectopic beats, the RBF kernel in SVM delivers the best result, with a sensitivity of 82%.</li>
 <li>For Ventricular ectopic beats, KNN algorithm works well with sensitivity of 94%.</li> 
