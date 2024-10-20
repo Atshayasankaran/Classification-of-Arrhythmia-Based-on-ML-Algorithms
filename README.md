@@ -52,5 +52,11 @@ Both upsampled and downsampled data are used as input for various machine learni
 <li>For unknown beats, XGBoost gives best performance with the sensitivity of 97%.</li> 
 </ul>
 
+# Publication
+ I have published a paper in IEEE based on this project. For a more detailed description about the project, please refer to the paper:
+
+- **P. Varalakshmi, Atshaya P. Sankaran** (2022) , "Classification of Arrhythmia Based on Machine Learning Algorithms Using ECG Signals," 2022 International Conference on Advances in Computing, Communication and Applied Informatics (ACCAI) (10.1109/ACCAI53970.2022.9752565)
+
+
 
 
