@@ -1,0 +1,2 @@
+# Classification-of-Arrhythmia-Based-on-ML-Algorithms
+Arrhythmia is the high occurring cardiovascular diseases now a days. ECG is a commonly used tool for detecting it. Automatic identification and classification of arrhythmia can improve efficiency in diagnosis process. This work presents the comparison of different sampling, machine learning and ensemble models for the classification of arrhythmia.
